@@ -1,0 +1,7 @@
+- name: Install rails
+  gem:
+    name: rails
+    version: 4.2.0
+    state: present
+    user_install: no
+    executable: "{{gem_path}}"
